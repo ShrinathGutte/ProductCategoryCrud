@@ -44,26 +44,6 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	
-
-//	@Override
-//	public Product getProductById(int id) {
-//		
-//	   Optional<Product> optionalProduct =  productRepository.findById(id);
-//	  Product product=null;
-//	  
-//	  if(optionalProduct.isPresent())
-//	   {
-//		   product= optionalProduct.get();
-//		   product.getCategory().getCategoryName();
-//	   }
-//	  else 
-//	  {
-//		  throw new IdNotFoundException(AppConstant.ID_NOT_FOUND_MESSAGE);
-//	  }
-//		
-//		return product;
-//	}
-	
 	@Override
 	public String deleteProduct(int id) {
 		String msg="";
