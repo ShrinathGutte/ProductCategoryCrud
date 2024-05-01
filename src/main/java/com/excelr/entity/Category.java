@@ -36,8 +36,6 @@ public class Category {
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL ,mappedBy = "category")
 	@JsonIgnoreProperties("category")
 	private List<Product> products;
-	
-	
-	
+		
 
 }
